@@ -1,0 +1,15 @@
+https://babeljs.io/repl#?config_lz=N4IgZglgNgpgdgQwLYxALhAJxgBygOgCsBnADxABoQdtiYAXY9AbWZHgDdLR6FMBzBkwwATGGAQBXKIwoACOAHt6ciDDkBGDfKUq1AfSSKARpo2UQRkdJjCJUOlWOT-kUrfT1MkmAF8AuhRs2AgAxvTcWJJw9BAo6CBS9IpICLGhIAFBIMS8ggC0AEyRYqGKmGnlxABqMJjEEIpwCYUADIUAzPlaFjgQODBQEHAwAAqYijiKxAhQCQAWYQDWmf6BOYqSmKEwACoAngMJVjaZQA&lineWrap=true&version=7.28.4
+
+this is link that converts the react code to js ... becz ultimately every react code is converted to js 
+______________________________________________________________________
+
+JSX Rules :
+
+1. JSX must return a single parent element.
+2. JSX tags must be closed.
+3. JSX is case-sensitive.
+4. JSX can use JavaScript expressions.
+5. JSX attributes use camelCase naming convention.(class becomes className, for (in label) becomes htmlFor)
+
+______________________________________________________________________
+Expresssions are written in {} in jsx
