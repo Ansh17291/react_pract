@@ -13,3 +13,12 @@ JSX Rules :
 
 ______________________________________________________________________
 Expresssions are written in {} in jsx
+
+______________________________________________________________________
+
+passing props from parent to the child component but now by closing them , 
+<child>
+<h1> helo </h1>
+</child>
+
+here the content inside the tag becomes children 

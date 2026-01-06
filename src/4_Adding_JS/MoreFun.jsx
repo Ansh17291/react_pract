@@ -50,7 +50,7 @@ const MoreFun = () => {
 
       
       
-      {/* // Displaying ny taking the object from the array one by one and then using person.name , person.place, to render it on the DOM */}
+      {/* // Displaying by taking the object from the array one by one and then using person.name , person.place, to render it on the DOM */}
 
       {/* {
         peopleInfo.map((person) =>(
