@@ -10,6 +10,8 @@ import NewChild from "./5_Props/NewChild";
 import Cart from "./6_Conditional_Rendering/Cart";
 import Button_click from "./7_EventHandling/Button_click";
 import Copy from "./7_EventHandling/Copy";
+import Hook_useState from "./8_Hooks/hook_useState";
+import ChildComponent from "./8_Hooks/ChildComponent";
 const App = () => { 
   return (
     <>
@@ -18,7 +20,7 @@ const App = () => {
       
       <Header/>
       <Main/>
-      <JSXRules/>
+      {/* <JSXRules/>
       <Add/>
       <MoreFun/>
       <UserChild name="Ansh" place="India" hobbies={['reading , coding , sleeping ']}/>
@@ -38,7 +40,10 @@ const App = () => {
       <Cart />
 
       <Button_click />
-      <Copy></Copy>
+      <Copy></Copy> */}
+
+      <Hook_useState/>
+
       <Footer/>
     </>
   )
