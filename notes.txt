@@ -22,3 +22,7 @@ passing props from parent to the child component but now by closing them ,
 </child>
 
 here the content inside the tag becomes children 
+
+______________________________________________________________________
+
+Hooks 

@@ -12,6 +12,7 @@ import Button_click from "./7_EventHandling/Button_click";
 import Copy from "./7_EventHandling/Copy";
 import Hook_useState from "./8_Hooks/hook_useState";
 import ChildComponent from "./8_Hooks/ChildComponent";
+import Todo from "./9_TodoList/Todo";
 const App = () => { 
   return (
     <>
@@ -42,7 +43,9 @@ const App = () => {
       <Button_click />
       <Copy></Copy> */}
 
-      <Hook_useState/>
+      {/* <Hook_useState/> */}
+
+      <Todo/>
 
       <Footer/>
     </>

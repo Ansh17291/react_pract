@@ -9,7 +9,11 @@ const Example = () => {
 
     useEffect(()=>{
         localStorage.setItem('name', JSON.stringify(name)); // called everytime the state is changed !!
-    },[]);
+    },[name]);
+
+    // if we do not provide the dependency array , it will be called on every render
+    // if we provide an empty dependency array , it will be called only once when the component is mounted
+    
 
     const handleClear = () =>{
         setName("");
