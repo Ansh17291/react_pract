@@ -13,6 +13,7 @@ import Copy from "./7_EventHandling/Copy";
 import Hook_useState from "./8_Hooks/hook_useState";
 import ChildComponent from "./8_Hooks/ChildComponent";
 import Todo from "./9_TodoList/Todo";
+import CopyInput from "./10_ReactPortal/CopyInput";
 const App = () => { 
   return (
     <>
@@ -46,6 +47,8 @@ const App = () => {
       {/* <Hook_useState/> */}
 
       <Todo/>
+
+      <CopyInput/>
 
       <Footer/>
     </>
