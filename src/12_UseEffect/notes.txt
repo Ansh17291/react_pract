@@ -1,0 +1,11 @@
+useEffect hook allows you to perform side effects in your component. some examples of side effects are : fetching data , directly updating the DOM
+
+syntac : 
+
+useEffect (() => {
+
+}, dependancy Array)
+
+condns : 
+1. without the dependancy array -> useEffect executed with every single render
+2. [] empty dependancy array with make the callback func in the useEffect to run only once during the inital render.

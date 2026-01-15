@@ -14,6 +14,9 @@ import Hook_useState from "./8_Hooks/hook_useState";
 import ChildComponent from "./8_Hooks/ChildComponent";
 import Todo from "./9_TodoList/Todo";
 import CopyInput from "./10_ReactPortal/CopyInput";
+import Switcher from "./11_Switcher/Switcher";
+import UseEffect_ex from "./12_UseEffect/useEffect_ex";
+import FetchData from './12_UseEffect/FetchData';
 const App = () => { 
   return (
     <>
@@ -46,10 +49,13 @@ const App = () => {
 
       {/* <Hook_useState/> */}
 
-      <Todo/>
+      {/* <Todo/> */}
 
-      <CopyInput/>
+      {/* <CopyInput/> */}
+      {/* <Switcher /> */}
+      {/* <UseEffect_ex/> */}
 
+      <FetchData />
       <Footer/>
     </>
   )
